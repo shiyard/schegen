@@ -1,0 +1,11 @@
+
+Long id;
+String firstName;
+String lastName;
+String email;
+LocalDate dateOfBirth;
+Double salary;
+Boolean isActive;
+List<Project> projects;
+byte[] picture;
+Object object;

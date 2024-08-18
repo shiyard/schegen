@@ -1,0 +1,58 @@
+{
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "type" : "integer",
+      "format" : "int64",
+      "descriptions" : "",
+      "example" : "1234"
+    },
+    "firstName" : {
+      "type" : "string",
+      "descriptions" : "",
+      "example" : ""
+    },
+    "lastName" : {
+      "type" : "string",
+      "descriptions" : "",
+      "example" : ""
+    },
+    "email" : {
+      "type" : "string",
+      "descriptions" : "",
+      "example" : ""
+    },
+    "dateOfBirth" : {
+      "type" : "string",
+      "format" : "date",
+      "descriptions" : "",
+      "example" : "2024-01-01"
+    },
+    "salary" : {
+      "type" : "number",
+      "format" : "double",
+      "descriptions" : "",
+      "example" : "1.234"
+    },
+    "isActive" : {
+      "type" : "boolean",
+      "descriptions" : "",
+      "example" : "false"
+    },
+    "projects" : {
+      "type" : "array",
+      "items" : {
+        "$ref" : "./"
+      }
+    },
+    "picture" : {
+      "type" : "",
+      "format" : "byte",
+      "descriptions" : ""
+    },
+    "object" : {
+      "descriptions" : "",
+      "$ref" : "./"
+    }
+  }
+}
